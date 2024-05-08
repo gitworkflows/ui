@@ -1,11 +1,13 @@
 import React from "react";
 import { AllPalettes } from "./color-system";
 
-const story = {
-	title: "Design System/Color",
-	component: AllPalettes,
+// Define the story for the Color System component
+const ColorSystemStory = {
+  title: "Design System/Color",
+  component: AllPalettes,
 };
 
-export const ColorSystem = (): JSX.Element => <AllPalettes />;
+// Export the Color System component story
+export const ColorSystemStoryComponent = (): JSX.Element => <AllPalettes />;
 
-export default story;
+export default ColorSystemStory;
